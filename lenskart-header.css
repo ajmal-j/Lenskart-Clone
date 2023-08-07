@@ -1,0 +1,141 @@
+.header{
+    display: flex;
+    right: 0;
+    z-index: 100;
+    left: 0;
+    position: fixed;
+    padding: 10px 30px 35px 30px;
+    flex-direction: column;
+    border-bottom:1px solid lightgrey;
+    max-height: 235px;
+    background-color: white;
+}
+@media(max-width:1150px){
+    .center .center-center img {
+        display: none;
+    }
+}
+.top{
+    display: flex;
+    align-items: center;
+    line-height: 29px;
+    font-family: Open Sans , arial;
+    font-size: large;
+}
+.top .top-left{
+    width: 70%;
+    margin-right: 5%;
+    justify-content: start;
+}
+.top-right{
+    display: flex;
+    justify-content: end;
+    width: 30%;
+    position: relative;
+}
+.center{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-family: Open Sans , arial;
+}
+.center-center{
+    width: 60%;
+    display: flex;
+}
+.center-center img{
+    margin-right: 15px;
+    height: 40px;
+    display: flex;
+}
+.center-center input{
+    flex: 1;
+    margin-top: -6px;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 20px 10px 17px 10px;
+    width: 0;
+    max-width: 4000px;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 8px;
+}
+.center .center-left img{
+    height: 100px;
+    margin-right: 1px;
+}
+.center .center-right{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    align-items: center;
+}
+.center .center-right div{
+    font-size: 20px;
+    margin: 10px;
+    white-space:nowrap;
+}
+.center-left{
+    min-width: 350px;
+    margin-right: 10px;
+}
+.bottom{
+    padding: 0;
+    font-family: Open Sans , arial;
+    display: flex;
+    align-items: center;
+}
+.bottom .bottom-left{
+    display: flex;
+    flex-shrink: 0;
+    flex-grow: 0;
+    font-size: x-large;
+    white-space: nowrap;
+    align-items: center;
+    flex: 70%;
+}
+.bottom .bottom-right{
+    display: flex;
+    justify-content: space-between;
+}
+@media(max-width:1835px){
+    .blue{
+        display: none;
+    }
+}
+.blue{
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.bottom .bottom-left div{
+    margin-right: 20px;
+}
+.bottom .bottom-left div:hover{
+    border-bottom:5px solid rgb(0,0,66) ;
+    padding: 0;
+}
+.center-center input::placeholder{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.center3{
+    display: flex;
+}
+.center3 .love{
+    padding-top: 15px;
+}
+span{
+    font-size: 40px;
+    font-weight: bold;
+}
+.center4 img{
+    height: 31px;
+    margin-right: 15px;
+}
+.center4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
